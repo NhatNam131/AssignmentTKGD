@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_khoan_thu"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Khoản thu" />
+        <item
+            android:id="@+id/nav_khoan_chi"
+            android:icon="@drawable/ic_money_off_black_24dp"
+            android:title="Khoản Chi" />
+        <item
+            android:id="@+id/nav_thong_ke"
+            android:icon="@drawable/ic_equalizer_black_24dp"
+            android:title="Thống Kê" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_intro"
+                android:icon="@drawable/introduc"
+                android:title="Giới Thiệu" />
+            <item
+                android:id="@+id/nav_out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Thoát" />
+        </menu>
+    </item>
+
+
+</menu>

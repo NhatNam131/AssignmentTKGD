@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quản Lý Thu Chi</string>
+    <string name="nav_header_title">Quản lý thu chi</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">Nhất Nam</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="nameItem">Name</string>
+    <string name="tvContent">Đời sống vật chất ngày càng được cải thiện cùng với sự phát triển của công nghệ thông tin nên hầu như mọi cơ quan, tổ chức hoặc cá nhân đều không khó để trang bị cho mình hay cho nhân viên một chiếc máy tính để bàn hay máy tính xách tay ở nhà hoặc ở cơ quan.</string>
+    <string name="tvContent2">Do đó, chúng tôi đã xây dựng hoàn chỉnh Phần mềm Quản lý Thu Chi  chạy trên điện thoại.</string>
+    <string name="btnAdd">Thêm</string>
+    <string name="btnCancel">Hủy</string>
+    <string name="notify_empty_name_type">Yêu cầu nhập tên loại thu</string>
+    <string name="notify_empty_description">Yêu cầu nhập mô tả</string>
+</resources>
