@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +18,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.assignmenttkgd.CapNhatKhoanThuActivity;
+import com.example.assignmenttkgd.CapNhatLoaiChiActivity;
 import com.example.assignmenttkgd.R;
 import com.example.assignmenttkgd.dao.KhoanThuDAO;
 import com.example.assignmenttkgd.dao.LoaiThuDAO;
@@ -80,7 +84,16 @@ public class KhoanThuAdapter extends BaseAdapter implements Filterable {
         holder.imgUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(context, CapNhatKhoanThuActivity.class);
+                Bundle b = new Bundle();
+                b.putString("Id", arrKhoanThu.get(position).getId());
+                b.putString("Name", arrKhoanThu.get(position).getName());
+                b.putString("Money", arrKhoanThu.get(position).getMoney());
+                b.putString("Date", arrKhoanThu.get(position).getDate());
+                b.putString("Description", arrKhoanThu.get(position).getDescription());
 
+                intent.putExtras(b);
+                context.startActivity(intent);
             }
         });
 
